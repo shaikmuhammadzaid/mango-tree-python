@@ -1,0 +1,8 @@
+n = int(input())
+tree = int(input())
+row = (tree - 1) // n
+col = (tree - 1) % n
+if row == 0 or col == 0 or col == n - 1:
+    print("Yes")
+else:
+    print("No")
